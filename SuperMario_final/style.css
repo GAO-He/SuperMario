@@ -1,0 +1,27 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+canvas{
+
+    top: 10px;
+    left: 300px;
+    right: 10px;
+    bottom: 10px;
+    position: absolute;
+    border: 0px solid red;
+
+}
+
+#bgCanvas{
+    z-index: 0;     /*la priorit¨¦ de niveau*/
+}
+#fgCanvas{
+    z-index: 1;
+}
+#marioCanvas{
+    z-index: 2;
+}
